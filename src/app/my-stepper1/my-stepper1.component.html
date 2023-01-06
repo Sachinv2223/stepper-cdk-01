@@ -1,6 +1,6 @@
-<section class="container">
+<section class="m-5 is-flex is-flex-direction-row">
     <!-- The navbar for the wizard -->
-    <header class="header">
+    <header class="header column is-3">
         <ol>
             <ng-container *ngFor="let step of steps; let i = index;">
                 <li [ngClass]="(selectedIndex === i) ? activeClass : ''">
@@ -21,7 +21,7 @@
         </ol>
     </header>
 
-    <div class="body">
+    <div class="body column">
         <ng-container [ngTemplateOutlet]="selected!.content"></ng-container>
     </div>
 </section>

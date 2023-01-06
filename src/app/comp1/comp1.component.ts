@@ -19,12 +19,12 @@ export class Comp1Component implements OnInit {
         this.fb.group({
           firstName: ['First Name'],
           lastName: ['Last Name'],
-          phone: [null], // optional
+          phone: [null],
           email: ['johndoe@example.com'],
         }),
         this.fb.group({
           addressOne: ['Address One'],
-          addressTwo: [null], // optional
+          addressTwo: [null],
           city: ['India'],
           county: [null],
           country: [null],
