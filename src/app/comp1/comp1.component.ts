@@ -41,7 +41,6 @@ export class Comp1Component implements OnInit {
   }
 
   isLinear = false;
-
   isEditable = true;
 
   frmValues: object = {};
